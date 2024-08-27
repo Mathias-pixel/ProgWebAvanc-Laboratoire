@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\2067934\\source\\repos\\MVCEtWebAPI\\Models\\Models.csproj": {}
+    "C:\\Users\\2067934\\Desktop\\ProgWebAvanc-Laboratoire\\MVCEtWebAPI\\Models\\Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\2067934\\source\\repos\\MVCEtWebAPI\\Models\\Models.csproj": {
+    "C:\\Users\\2067934\\Desktop\\ProgWebAvanc-Laboratoire\\MVCEtWebAPI\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\2067934\\source\\repos\\MVCEtWebAPI\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\2067934\\Desktop\\ProgWebAvanc-Laboratoire\\MVCEtWebAPI\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "C:\\Users\\2067934\\source\\repos\\MVCEtWebAPI\\Models\\Models.csproj",
+        "projectPath": "C:\\Users\\2067934\\Desktop\\ProgWebAvanc-Laboratoire\\MVCEtWebAPI\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\2067934\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\2067934\\source\\repos\\MVCEtWebAPI\\Models\\obj\\",
+        "outputPath": "C:\\Users\\2067934\\Desktop\\ProgWebAvanc-Laboratoire\\MVCEtWebAPI\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,6 +65,12 @@
             "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
               "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
