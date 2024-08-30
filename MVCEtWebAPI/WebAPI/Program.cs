@@ -53,6 +53,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>()
 
 SymmetricSecurityKey signingKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("C'est tellement la meilleure cle qui a jamais ete cree dans l'histoire de l'humanite (doit etre longue)"));
 
+
 // TODO: Assurez-vous que c'est le bon numéro de port pour votre projet WebAPI
 string serverAdress = "https://localhost:5249";
 
