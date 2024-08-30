@@ -1,0 +1,54 @@
+
+
+<div class="div1" >
+
+
+  <div class="div2" >
+  
+    
+    <input  [(ngModel)]="loginUsername">
+
+     
+    <div>
+      <div *ngIf="!UserIsConnected">
+        <button (click)="Login()"  >Enregister</button> 
+        <button >Login </button>
+      </div>
+     
+
+     <div *ngIf="UserIsConnected">
+      <button  (click)="LogOut()">Logout </button>
+     </div>
+    
+    </div>
+  </div>
+  
+
+  <div>
+    <button (click)="GetPublic()" >Test Publique </button>
+
+    <div *ngFor="let c of wordListPublic" >
+
+      <p>{{c}}</p>
+      
+    </div>
+
+    <button (click)="GetPrivate()" >Test Privé </button>
+
+    <div *ngFor="let c of wordListPrivate" >
+
+      <p>{{c}}</p>
+      
+    </div>
+
+  
+  </div>
+
+ 
+</div>
+
+
+
+
+
+
